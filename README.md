@@ -104,7 +104,7 @@ $serviceBooking->make(['starts_at' => \Carbon\Carbon::now(), 'ends_at' => \Carbo
 > **Notes:**
 > - As you can see, there's many ways to create a new booking, use whatever suits your context.
 > - Booking price is calculated automatically on the fly according to the resource price, custom prices, and bookable Rates.
-> - **Rinvex Bookings** is intelegent enough to detect date format and convert if required, the above example show the explicitly correct format, but you still can write something like: 'Tomorrow 1pm' and it will be converted automatically for you.
+> - **Rinvex Bookings** is intelligent enough to detect date format and convert if required, the above example show the explicitly correct format, but you still can write something like: 'Tomorrow 1pm' and it will be converted automatically for you.
 
 ### Query booking models
 
@@ -210,7 +210,7 @@ $bookable = $room->bookable; // Get the owning resource model
 
 > **Notes:**
 > - If you don't create any custom prices, then the resource will be booked at the default resource price.
-> - **Rinvex Bookings** is intelegent enough to detect time format and convert if required, the above example show the explicitly correct format, but you still can write something like: '09:00 am' and it will be converted automatically for you.
+> - **Rinvex Bookings** is intelligent enough to detect time format and convert if required, the above example show the explicitly correct format, but you still can write something like: '09:00 am' and it will be converted automatically for you.
 
 ### Query resource models
 
